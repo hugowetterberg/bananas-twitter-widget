@@ -1,0 +1,44 @@
+#bananas {
+  font-family: Verdana, Sans-serif;
+  font-size: 11px;
+  position: relative;
+  background: #f9d507 url('asterisk_small.png') 7px 7px no-repeat;
+  width: 225px;
+  height: 300px;
+}
+
+#bananas .title, #bananas .keywords {
+  display: block;
+  padding-top: 5px;
+  margin-left: 45px;
+}
+
+#bananas .keywords {
+  margin: 0 5px 0 60px;
+}
+
+#bananas .tweet-wrapper {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+
+  overflow: hidden;
+  width: 215px;
+  height: 220px;
+}
+
+#bananas .tweets {
+  width: 215px;
+  overflow: hidden;
+}
+
+#bananas .tweet {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-bottom: 7px;
+}
+
+#bananas .tweet p {
+  display: inline;
+}
