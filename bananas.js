@@ -49,7 +49,7 @@ function GoBananas(selector, kwargs) {
       });
     };
 
-  jQuery(selector).append('<div class="asterisk"></div>')
+  jQuery(selector)
     .append('<strong class="title">Live feed from twitter.com</strong>')
     .append('<span class="keywords">Keywords: ' + kwargs.keywords.join(', ') + '</span>');
   tweet_wrapper = jQuery('<div class="tweet-wrapper"></div>').appendTo(selector);

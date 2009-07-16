@@ -2,7 +2,7 @@
   font-family: Verdana, Sans-serif;
   font-size: 11px;
   position: relative;
-  background: #f9d507 url('asterisk_small.png') 7px 7px no-repeat;
+  background: #f9d507;
   width: 225px;
   height: 300px;
 }
@@ -10,11 +10,11 @@
 #bananas .title, #bananas .keywords {
   display: block;
   padding-top: 5px;
-  margin-left: 45px;
+  margin-left: 5px;
 }
 
 #bananas .keywords {
-  margin: 0 5px 0 60px;
+  margin: 0 5px 0 10px;
 }
 
 #bananas .tweet-wrapper {
